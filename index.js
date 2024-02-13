@@ -1,7 +1,7 @@
 document.getElementById('yesBtn').addEventListener('click', function() {
-    window.location.href = 'yes.html'; // Redirect to yes.html if "Yes" button is clicked
+    window.location.href = 'https://en.wikipedia.org/wiki/Heart_symbol'; // Redirect to Wikipedia page if "Yes" button is clicked
 });
 
 document.getElementById('noBtn').addEventListener('click', function() {
-    window.location.href = 'no.html'; // Redirect to no.html if "No" button is clicked
+    window.location.href = 'https://www.istockphoto.com/illustrations/thumbs-down-clipart'; // Redirect to iStockphoto page if "No" button is clicked
 });
