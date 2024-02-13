@@ -1,3 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff4d4d; /* Red background */
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: white; /* White text */
+}
+
 .answer-box {
     margin-top: 50px;
 }
@@ -9,19 +27,19 @@
 .answer-box button {
     padding: 10px 20px;
     margin-right: 10px;
-    background-color: #ff4d4d;
+    background-color: white; /* White buttons */
     border: none;
-    color: #fff;
+    color: #ff4d4d; /* Red text */
     cursor: pointer;
     font-size: 16px;
 }
 
 .answer-box button:hover {
-    background-color: #ff3333;
+    background-color: #f0f0f0; /* Light gray on hover */
 }
 
 #confetti,
-#rain {
+#heartbreak {
     position: fixed;
     top: 0;
     left: 0;
