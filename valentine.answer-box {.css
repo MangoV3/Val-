@@ -1,0 +1,32 @@
+.answer-box {
+    margin-top: 50px;
+}
+
+.answer-box p {
+    margin-bottom: 10px;
+}
+
+.answer-box button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #ff4d4d;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.answer-box button:hover {
+    background-color: #ff3333;
+}
+
+#confetti,
+#rain {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+}

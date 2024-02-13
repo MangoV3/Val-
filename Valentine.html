@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Will You Be My Valentine?</h1>
+        <form id="valentineForm">
+            <label for="recipientName">Recipient's Name:</label>
+            <input type="text" id="recipientName" required>
+            <label for="message">Your Message:</label>
+            <textarea id="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="answer-box">
+            <p>Will you be my Valentine?</p>
+            <button id="yesBtn">Yes</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+    <div id="confetti"></div>
+    <div id="rain"></div>
+    <script src="script.js"></script>
+</body>
+</html>
